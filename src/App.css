@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(
+    to right bottom,
+    rgb(119, 158, 201),
+    rgb(227, 226, 232)
+  );
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  background-color: rgb(209, 217, 221);
+  min-width: 400px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px black;
+}
+.app-wrapper h1 {
+  text-align: center;
+  color: rgb(10, 70, 131);
+}
+

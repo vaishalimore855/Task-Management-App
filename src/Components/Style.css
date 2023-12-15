@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0
+}
+.container{
+  background:linear-gradient(to right bottom,rgb(173, 185, 197),rgb(227, 226, 232));
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color:rgb(5, 68, 101);
+  min-width: 450px;
+  min-height: 650px;
+  padding:30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px black;
+}
+.header h1{
+  color:azure;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+
